@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ToDo Validation Suite" parallel="classes" thread-count="2">
+
+    <listeners>
+<!--        <listener class-name="BaseClasses.AnnotationTransformer"></listener>-->
+        <listener class-name="Reporting.TestNGCustomReport"></listener>
+
+
+    </listeners>
+
+    <test name="ToDo Login Page Ui Validation">
+        <classes>
+            <class name="test.HomePage.ToDoValidation"/>
+            <class name="test.HomePage.RegisterValidation"/>
+        </classes>
+
+    </test>
+
+
+
+
+</suite> <!-- Suite -->

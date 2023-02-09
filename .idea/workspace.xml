@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="097997cd-fcb9-4e89-8743-443c9de2d38b" name="Changes" comment="Inserted New SignUp AR page">
+      <change afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/ImplementationClasses/RegisterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/PageFactoryClasses/ToDoPageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/IRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/test/HomePage/RegisterValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/Artifacts/failedScreenshots/verifySignupPage_Arabic.png" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/Artifacts/failedScreenshots/verifySignupPage_Arabic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/WEB_UI_Module.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/WEB_UI_Module.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/BaseClasses/AfdalAnalyticsBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/BaseClasses/ToDoBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/BaseClasses/AfdalAnalyticsLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/BaseClasses/ToDoLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/BaseClasses/BaseWebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/BaseClasses/BaseWebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/ImplementationClasses/AfdalAnalyticsPricingImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/ImplementationClasses/AfdalAnalyticsSettingsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/ImplementationClasses/AfdalAnalyticsSignInImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/ImplementationClasses/ToDoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/ImplementationClasses/AfdalAnalyticsSignUpArImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/Reporting/TestNGCustomReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/Reporting/TestNGCustomReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/data/SystemProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/data/SystemProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/PageFactoryClasses/AfdalPageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/AfdalAnalyticsPricingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/AfdalAnalyticsSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/AfdalAnalyticsSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/AfdalAnalyticsSignUpArPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/IAfdalAnalyticsPricingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/IAfdalAnalyticsSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/IAfdalAnalyticsSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/IToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/pageobjects/pages/IAfdalAnalyticsSignUpArPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/test/HomePage/AfdalLoginPageUiValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/test/HomePage/ToDoValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/test/HomePage/AfdalPricingValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/test/HomePage/AfdalSettingsValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/java/test/HomePage/AfdalSignUpArValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/src/main/resources/CHROME.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB_UI_Module/src/main/resources/CHROME.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.AccountTabFunctionalityTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.CompanyInformationAndPreferenceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.CustomerDetailsFromRecentActivityTab.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.CustomerListAndPaginationInCustomerTab.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.CustomerTabUiValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.GetMonthlyPaymentFromRecentActivity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.InvalidPaymentFromCustomerTab.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.InvalidPaymentRequestFromActivityCenter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.LoginPageUiValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.NewHomeOwnerProfileUsingCurrentLocation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.NewHomeownerProfileUiValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.NewLoadFromActivityCenterTotalJobFieldValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.NewLoanFromActivityCenter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.NewLoanFromCustomerTab.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.PaymentACHSettingTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.RecentActivityFromActivityCenterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.ReportInCustomerAndPayment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.RequestPaymentFromActivityCenterPage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/browserstack-reports/REPORT-test.HomePage.VerifyInvalidTotalJobCostField.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/BaseClasses/AfdalAnalyticsBaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/BaseClasses/AfdalAnalyticsLoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/BaseClasses/AnnotationTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/BaseClasses/BaseWebTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/BaseClasses/Feature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/BaseClasses/FeatureExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/CHROME.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/ImplementationClasses/AfdalAnalyticsPricingImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/ImplementationClasses/AfdalAnalyticsSettingsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/ImplementationClasses/AfdalAnalyticsSignInImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/ImplementationClasses/AfdalAnalyticsSignUpArImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/PngItem_2720656.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/ExtentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/ExtentTestManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/Models/TestCaseKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/TestNGCustomReport$ClassResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/TestNGCustomReport$MethodResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/TestNGCustomReport$SuiteResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/TestNGCustomReport$TestResult$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/TestNGCustomReport$TestResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/TestNGCustomReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/customOperation/CustomTableExtentReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/Reporting/customOperation/DataInsertionExtentReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/data/DataModels/TableColumnType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/data/StringUtilInternal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/data/SystemProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/data/Test/PngItem_2720656.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/DriverBinaryManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/DriverBinaryManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/DriverConfigurator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/DriverConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/DriverDownloadDirManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/DriverUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/RemoteDriverState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/RetryAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/BrowserStackDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/BrowserStackDriverImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/ChromeDriverProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/ChromeRemoteDriverProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/DriverType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/EdgeDriverProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/EdgeRemoteDriverProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/FirefoxDriverProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/FirefoxRemoteDriverProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/IEDriverProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/engine/webdriver/RemoteDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/PageFactoryClasses/AfdalPageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/PageFactoryClasses/PageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/pages/AfdalAnalyticsPricingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/pages/AfdalAnalyticsSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/pages/AfdalAnalyticsSignInPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/pages/AfdalAnalyticsSignUpArPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/pages/IAfdalAnalyticsPricingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/pages/IAfdalAnalyticsSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/pages/IAfdalAnalyticsSignInPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/pageobjects/pages/IAfdalAnalyticsSignUpArPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/test/HomePage/AfdalLoginPageUiValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/test/HomePage/AfdalPricingValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/test/HomePage/AfdalSettingsValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/test/HomePage/AfdalSignUpArValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/AllureListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/EnumUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/ExcelCRUDOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/GetRandomDataGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/JavaScriptFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/LoggingHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/MapCompareMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/SeleniumUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/StringUtilInternal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/TestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/classes/utilities/UtilOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-04-30T07-12-31_726-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-05-16T16-56-07_008-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-05-16T16-56-07_008-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-11-15T17-26-36_202-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-11-15T17-27-46_365-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-11-15T17-27-46_365-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-11-15T17-43-51_597-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-11-15T17-43-51_597-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/2022-11-15T17-45-05_984-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/Afdal Analytics Validation Suite/Afdal Analytics Login Page Ui Validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/Afdal Analytics Validation Suite/Afdal Analytics Login Page Ui Validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/Afdal Analytics Validation Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/junitreports/TEST-test.HomePage.AfdalLoginPageUiValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/junitreports/TEST-test.HomePage.AfdalSignupPageValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/junitreports/TEST-test.HomePage.LoginPageUiValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/Afdal Analytics Login Page Ui Validation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/Afdal Analytics Validation Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB_UI_Module/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectId" id="1wBFi6tAIPFk3HRWFwjHAUvE6U7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gs1/Desktop/Afdal_analytics_Framework-main/WEB_UI_Module/src/main/java/data/Test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gs1\Desktop\Afdal_analytics_Framework-main\WEB_UI_Module\src\main\java\data\Test" />
+      <recent name="C:\Users\team2\IdeaProjects\Web_API_Mobile_framework\WEB_UI_Module\src\main\resources" />
+      <recent name="C:\Users\team2\IdeaProjects\Web_API_Mobile_framework\Mobile_Module\src\test\resources" />
+      <recent name="C:\Users\team2\IdeaProjects\Web_API_Mobile_framework\Mobile_Module\src\test\java\com\project\test\HomePage" />
+      <recent name="D:\EcloudMS_Automation\WEB_UI_Module\allure-results" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\team2\IdeaProjects\Web_API_Mobile_framework\Mobile_Module\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="engine.webdriver" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test -DSuite=testng" />
+      <command value="mvn clean test -Dtest=WebUI" />
+      <command value="mvn clean" />
+      <command value="mvn clean test -Dtest=testng" />
+      <command value="mvn test" />
+      <command value="mvn test -DDRIVER_TYPE=chrome" />
+      <command value="mvn test -DDRIVER_TYPE=IE" />
+      <command value="mvn test -DDRIVER=IE" />
+      <command value="mvn test -DDRIVER=EDGE" />
+      <command value="mvn test -DDRIVER=FF" />
+      <command value="mvn test -DDRIVER_TYPE=FF" />
+      <command value="mvn clean test -DDRIVER=FF" />
+      <command value="mvn clean test -Dbrowser=FF" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.ToDoValidation">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Afdal_analytics_Framework-main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Afdal_analytics_Framework-main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AfdalAnalyticsNewSignUpArValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test.HomePage" />
+      <option name="MAIN_CLASS_NAME" value="test.HomePage.AfdalAnalyticsNewSignUpArValidation" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -DBASE_URI=&quot;https://api.spotify.com&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AfdalSignUpArValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WEB_UI_Module" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test.HomePage" />
+      <option name="MAIN_CLASS_NAME" value="test.HomePage.AfdalSignUpArValidation" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -DBASE_URI=&quot;https://api.spotify.com&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/gs1/Desktop/Afdal_analytics_Framework/WEB_UI_Module/src/main/resources/CHROME.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WEB_UI_Module" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/WEB_UI_Module/src/main/resources/CHROME.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -DBASE_URI=&quot;https://api.spotify.com&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WEB_UI_Module" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test.HomePage" />
+      <option name="MAIN_CLASS_NAME" value="test.HomePage.RegisterValidation" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -DBASE_URI=&quot;https://api.spotify.com&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WEB_UI_Module" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test.HomePage" />
+      <option name="MAIN_CLASS_NAME" value="test.HomePage.ToDoValidation" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -DBASE_URI=&quot;https://api.spotify.com&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -DBASE_URI=&quot;https://api.spotify.com&quot; -DACCOUNT_BASE_URI=&quot;https://accounts.spotify.com&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.RegisterValidation" />
+      <item itemvalue="TestNG.ToDoValidation" />
+      <item itemvalue="TestNG.AfdalAnalyticsNewSignUpArValidation" />
+      <item itemvalue="TestNG.AfdalSignUpArValidation" />
+      <item itemvalue="TestNG.C:/Users/gs1/Desktop/Afdal_analytics_Framework/WEB_UI_Module/src/main/resources/CHROME.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ToDoValidation" />
+        <item itemvalue="TestNG.RegisterValidation" />
+        <item itemvalue="TestNG.AfdalSignUpArValidation" />
+        <item itemvalue="TestNG.C:/Users/gs1/Desktop/Afdal_analytics_Framework/WEB_UI_Module/src/main/resources/CHROME.xml" />
+        <item itemvalue="TestNG.AfdalAnalyticsNewSignUpArValidation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="097997cd-fcb9-4e89-8743-443c9de2d38b" name="Changes" comment="" />
+      <created>1627924201276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627924201276</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Account Test Cases v7">
+      <created>1643915602231</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1643915602232</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Account Test Cases v8">
+      <created>1644293417202</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1644293417203</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Account Test Cases v10">
+      <created>1644428437880</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1644428437881</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Account Test Cases v11">
+      <created>1645038141374</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1645038141375</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Account Test Cases v12">
+      <created>1645118311548</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1645118311549</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Account Test Cases v13">
+      <created>1645369817171</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1645369817187</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Account Test Cases v13">
+      <created>1645369845102</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1645369845102</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Account Test Cases v14">
+      <created>1645457487330</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1645457487331</updated>
+    </task>
+    <task id="LOCAL-00075" summary="new Changes in pom.xml">
+      <created>1645462977334</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1645462977334</updated>
+    </task>
+    <task id="LOCAL-00076" summary="new Changes in pom.xml v1">
+      <created>1645466134812</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1645466134812</updated>
+    </task>
+    <task id="LOCAL-00077" summary="new Changes in pom.xml v2">
+      <created>1645468522717</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1645468522718</updated>
+    </task>
+    <task id="LOCAL-00078" summary="new Changes in accounttab v3">
+      <created>1645547931463</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1645547931499</updated>
+    </task>
+    <task id="LOCAL-00079" summary="new Changes in configuration v3">
+      <created>1645640623149</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1645640623150</updated>
+    </task>
+    <task id="LOCAL-00080" summary="new Job created">
+      <created>1646158657055</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1646158657056</updated>
+    </task>
+    <task id="LOCAL-00081" summary="new Job created v1">
+      <created>1646160657904</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1646160657906</updated>
+    </task>
+    <task id="LOCAL-00082" summary="new Job created v2">
+      <created>1646160713391</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1646160713413</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Mobile Test cases v2">
+      <created>1647358097101</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1647358097102</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Mobile Test cases v3">
+      <created>1647358116148</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1647358116148</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Mobile Test cases v4">
+      <created>1647361552193</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1647361552196</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Mobile Test cases v5">
+      <created>1647370257327</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1647370257327</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Mobile Test cases v6">
+      <created>1647371327097</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1647371327097</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Mobile Test cases v7">
+      <created>1647504336744</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1647504336749</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Mobile Test cases v8">
+      <created>1647671341721</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1647671341722</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Mobile Test cases v9">
+      <created>1647675775313</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1647675775313</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Mobile Test cases v10">
+      <created>1647882614410</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1647882614411</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Mobile Test cases v11">
+      <created>1647884830875</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1647884830875</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Mobile Test cases v12">
+      <created>1647887711125</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1647887711125</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Mobile Test cases v13">
+      <created>1647966131508</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1647966131508</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Web Test cases v14">
+      <created>1647969758121</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1647969758121</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Web Test cases v15">
+      <created>1647970553973</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1647970553976</updated>
+    </task>
+    <task id="LOCAL-00097" summary="mobile Test cases v16">
+      <created>1648030329030</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1648030329030</updated>
+    </task>
+    <task id="LOCAL-00098" summary="mobile Test cases v18">
+      <created>1648030684247</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1648030684247</updated>
+    </task>
+    <task id="LOCAL-00099" summary="mobile Test cases v19">
+      <created>1648032118384</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1648032118384</updated>
+    </task>
+    <task id="LOCAL-00100" summary="mobile Test cases v20">
+      <created>1648057141263</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1648057141264</updated>
+    </task>
+    <task id="LOCAL-00101" summary="mobile Test cases v21">
+      <created>1648136347362</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1648136347362</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Browserstack configuration v2">
+      <created>1648364931358</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1648364931358</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Browserstack configuration v3">
+      <created>1648365047173</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1648365047174</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Fixed the test case">
+      <created>1649082716605</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1649082716606</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Report title">
+      <created>1649167023969</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1649167023970</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Test cases fixed">
+      <created>1649992688978</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1649992688995</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Third commit">
+      <created>1652720907340</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1652720907340</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Third commit - SignIn and Signup Page testcases implemented...">
+      <created>1668175739639</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1668175739639</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Third commit - SignIn and Signup Page testcases implemented...">
+      <created>1668180353396</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1668180353396</updated>
+    </task>
+    <task id="LOCAL-00110" summary="headless configuration">
+      <created>1668605793677</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1668605793678</updated>
+    </task>
+    <task id="LOCAL-00111" summary="headless configuration v1">
+      <created>1668605972799</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1668605972799</updated>
+    </task>
+    <task id="LOCAL-00112" summary="verify Signin_Arabic and Signup_Arabic">
+      <created>1669148322071</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1669148322077</updated>
+    </task>
+    <task id="LOCAL-00113" summary="verify Signin_Arabic and Signup_Arabic version 2">
+      <created>1669740018076</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1669740018076</updated>
+    </task>
+    <task id="LOCAL-00114" summary="verify Signin_Arabic and Signup_Arabic version 3">
+      <created>1669741237786</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1669741237786</updated>
+    </task>
+    <task id="LOCAL-00115" summary="verify Signin_Arabic and Signup_Arabic version 4">
+      <created>1669744784069</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1669744784069</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/MyNavidGaid_automation" />
+    </ignored-roots>
+    <MESSAGE value="Mobile Test cases v11" />
+    <MESSAGE value="Mobile Test cases v12" />
+    <MESSAGE value="Mobile Test cases v13" />
+    <MESSAGE value="Web Test cases v14" />
+    <MESSAGE value="Web Test cases v15" />
+    <MESSAGE value="mobile Test cases v16" />
+    <MESSAGE value="mobile Test cases v18" />
+    <MESSAGE value="mobile Test cases v19" />
+    <MESSAGE value="mobile Test cases v20" />
+    <MESSAGE value="mobile Test cases v21" />
+    <MESSAGE value="Browserstack configuration v2" />
+    <MESSAGE value="Browserstack configuration v3" />
+    <MESSAGE value="Fixed the test case" />
+    <MESSAGE value="Report title" />
+    <MESSAGE value="Test cases fixed" />
+    <MESSAGE value="Third commit" />
+    <MESSAGE value="Third commit - SignIn and Signup Page testcases implemented..." />
+    <MESSAGE value="headless configuration" />
+    <MESSAGE value="headless configuration v1" />
+    <MESSAGE value="verify Signin_Arabic and Signup_Arabic" />
+    <MESSAGE value="verify Signin_Arabic and Signup_Arabic version 2" />
+    <MESSAGE value="verify Signin_Arabic and Signup_Arabic version 3" />
+    <MESSAGE value="verify Signin_Arabic and Signup_Arabic version 4" />
+    <MESSAGE value="verify Signin_Arabic and Signup_Arabic version 5" />
+    <MESSAGE value="Inserted New SignUp AR page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserted New SignUp AR page" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/README_md$AfdalSettingsValidation.ic" NAME="AfdalSettingsValidation Coverage Results" MODIFIED="1672921965802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.HomePage.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/README_md$AfdalLoginPageUiValidation.ic" NAME="AfdalLoginPageUiValidation Coverage Results" MODIFIED="1671644449269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.HomePage.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/README_md$NewLoanFromActivityCenter.ic" NAME="NewLoanFromActivityCenter Coverage Results" MODIFIED="1642441795656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.HomePage.*</FILTER>
+    </SUITE>
+  </component>
+</project>
